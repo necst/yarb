@@ -1,0 +1,6 @@
+[submodule "dataset"]
+	path = dataset
+	url = git@bitbucket.org:necst/autorex-dataset.git
+[submodule "REgen"]
+	path = REgen
+	url = https://github.com/necst/REgen.git
