@@ -1,0 +1,367 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <automata-network id="temp">
+    <state-transition-element id="__2__" symbol-set="[BNX]" start="all-input">
+      <activate-on-match element="__3__"/>
+    </state-transition-element>
+    <state-transition-element id="__3__" symbol-set="[^P]">
+      <activate-on-match element="__4__"/>
+    </state-transition-element>
+    <state-transition-element id="__4__" symbol-set="[STX]">
+      <activate-on-match element="__5__"/>
+    </state-transition-element>
+    <state-transition-element id="__5__" symbol-set="[^P]">
+      <report-on-match reportcode="1"/>
+    </state-transition-element>
+    <state-transition-element id="__6__" symbol-set="[KRX]" start="all-input">
+      <activate-on-match element="__7__"/>
+    </state-transition-element>
+    <state-transition-element id="__7__" symbol-set="[KRX]">
+      <activate-on-match element="__8__"/>
+    </state-transition-element>
+    <state-transition-element id="__8__" symbol-set="[^\x0a]">
+      <activate-on-match element="__9__"/>
+    </state-transition-element>
+    <state-transition-element id="__9__" symbol-set="[STX]">
+      <report-on-match reportcode="2"/>
+    </state-transition-element>
+    <state-transition-element id="__41__" symbol-set="[\x20]" start="all-input">
+      <activate-on-match element="__41__"/>
+      <activate-on-match element="__42__"/>
+      <activate-on-match element="__43__"/>
+    </state-transition-element>
+    <state-transition-element id="__42__" symbol-set="[^\x20]">
+      <activate-on-match element="__42__"/>
+      <activate-on-match element="__43__"/>
+    </state-transition-element>
+    <state-transition-element id="__43__" symbol-set="[/]">
+      <activate-on-match element="__44__"/>
+    </state-transition-element>
+    <state-transition-element id="__44__" symbol-set="[P]">
+      <activate-on-match element="__45__"/>
+    </state-transition-element>
+    <state-transition-element id="__45__" symbol-set="[P]">
+      <activate-on-match element="__46__"/>
+    </state-transition-element>
+    <state-transition-element id="__46__" symbol-set="[S]">
+      <activate-on-match element="__47__"/>
+    </state-transition-element>
+    <state-transition-element id="__47__" symbol-set="[\x20]">
+      <activate-on-match element="__47__"/>
+      <activate-on-match element="__48__"/>
+      <activate-on-match element="__49__"/>
+    </state-transition-element>
+    <state-transition-element id="__48__" symbol-set="[^\x20]">
+      <activate-on-match element="__48__"/>
+      <activate-on-match element="__49__"/>
+    </state-transition-element>
+    <state-transition-element id="__49__" symbol-set="[/]">
+      <activate-on-match element="__50__"/>
+    </state-transition-element>
+    <state-transition-element id="__50__" symbol-set="[V]">
+      <activate-on-match element="__51__"/>
+    </state-transition-element>
+    <state-transition-element id="__51__" symbol-set="[B]">
+      <activate-on-match element="__52__"/>
+    </state-transition-element>
+    <state-transition-element id="__52__" symbol-set="[N]">
+      <activate-on-match element="__53__"/>
+    </state-transition-element>
+    <state-transition-element id="__53__" symbol-set="[\x20]">
+      <activate-on-match element="__53__"/>
+      <activate-on-match element="__54__"/>
+    </state-transition-element>
+    <state-transition-element id="__54__" symbol-set="[^\x20]">
+      <activate-on-match element="__54__"/>
+      <activate-on-match element="__55__"/>
+    </state-transition-element>
+    <state-transition-element id="__55__" symbol-set="[\x20]">
+      <activate-on-match element="__55__"/>
+      <activate-on-match element="__56__"/>
+    </state-transition-element>
+    <state-transition-element id="__56__" symbol-set="[^\x20]">
+      <activate-on-match element="__56__"/>
+      <activate-on-match element="__57__"/>
+    </state-transition-element>
+    <state-transition-element id="__57__" symbol-set="[\x20]">
+      <activate-on-match element="__57__"/>
+      <activate-on-match element="__58__"/>
+    </state-transition-element>
+    <state-transition-element id="__58__" symbol-set="[^\x20]">
+      <activate-on-match element="__58__"/>
+      <activate-on-match element="__59__"/>
+    </state-transition-element>
+    <state-transition-element id="__59__" symbol-set="[\x20]">
+      <report-on-match reportcode="2"/>
+    </state-transition-element>
+    <state-transition-element id="__77__" symbol-set="[\x20]" start="all-input">
+      <activate-on-match element="__77__"/>
+      <activate-on-match element="__78__"/>
+      <activate-on-match element="__79__"/>
+    </state-transition-element>
+    <state-transition-element id="__78__" symbol-set="[^\x20]">
+      <activate-on-match element="__78__"/>
+      <activate-on-match element="__79__"/>
+    </state-transition-element>
+    <state-transition-element id="__79__" symbol-set="[/]">
+      <activate-on-match element="__80__"/>
+    </state-transition-element>
+    <state-transition-element id="__80__" symbol-set="[T]">
+      <activate-on-match element="__81__"/>
+    </state-transition-element>
+    <state-transition-element id="__81__" symbol-set="[O]">
+      <activate-on-match element="__82__"/>
+    </state-transition-element>
+    <state-transition-element id="__82__" symbol-set="[\x20]">
+      <activate-on-match element="__82__"/>
+      <activate-on-match element="__83__"/>
+      <activate-on-match element="__84__"/>
+    </state-transition-element>
+    <state-transition-element id="__83__" symbol-set="[^\x20]">
+      <activate-on-match element="__83__"/>
+      <activate-on-match element="__84__"/>
+    </state-transition-element>
+    <state-transition-element id="__84__" symbol-set="[/]">
+      <activate-on-match element="__85__"/>
+    </state-transition-element>
+    <state-transition-element id="__85__" symbol-set="[N]">
+      <activate-on-match element="__86__"/>
+    </state-transition-element>
+    <state-transition-element id="__86__" symbol-set="[N]">
+      <activate-on-match element="__87__"/>
+    </state-transition-element>
+    <state-transition-element id="__87__" symbol-set="[\x20]">
+      <activate-on-match element="__87__"/>
+      <activate-on-match element="__88__"/>
+    </state-transition-element>
+    <state-transition-element id="__88__" symbol-set="[^\x20]">
+      <activate-on-match element="__88__"/>
+      <activate-on-match element="__89__"/>
+    </state-transition-element>
+    <state-transition-element id="__89__" symbol-set="[\x20]">
+      <activate-on-match element="__89__"/>
+      <activate-on-match element="__90__"/>
+    </state-transition-element>
+    <state-transition-element id="__90__" symbol-set="[^\x20]">
+      <activate-on-match element="__90__"/>
+      <activate-on-match element="__91__"/>
+    </state-transition-element>
+    <state-transition-element id="__91__" symbol-set="[\x20]">
+      <activate-on-match element="__91__"/>
+      <activate-on-match element="__92__"/>
+    </state-transition-element>
+    <state-transition-element id="__92__" symbol-set="[^\x20]">
+      <activate-on-match element="__92__"/>
+      <activate-on-match element="__93__"/>
+    </state-transition-element>
+    <state-transition-element id="__93__" symbol-set="[\x20]">
+      <report-on-match reportcode="3"/>
+    </state-transition-element>
+    <state-transition-element id="__135__" symbol-set="[\x20]" start="all-input">
+      <activate-on-match element="__135__"/>
+      <activate-on-match element="__136__"/>
+      <activate-on-match element="__145__"/>
+      <activate-on-match element="__154__"/>
+    </state-transition-element>
+    <state-transition-element id="__136__" symbol-set="[h]">
+      <activate-on-match element="__137__"/>
+    </state-transition-element>
+    <state-transition-element id="__137__" symbol-set="[a]">
+      <activate-on-match element="__138__"/>
+    </state-transition-element>
+    <state-transition-element id="__138__" symbol-set="[d]">
+      <activate-on-match element="__139__"/>
+    </state-transition-element>
+    <state-transition-element id="__139__" symbol-set="[/]">
+      <activate-on-match element="__140__"/>
+      <activate-on-match element="__141__"/>
+    </state-transition-element>
+    <state-transition-element id="__140__" symbol-set="[^\x20]">
+      <activate-on-match element="__140__"/>
+      <activate-on-match element="__141__"/>
+    </state-transition-element>
+    <state-transition-element id="__141__" symbol-set="[\x20]">
+      <activate-on-match element="__141__"/>
+      <activate-on-match element="__142__"/>
+    </state-transition-element>
+    <state-transition-element id="__142__" symbol-set="[^\x20]">
+      <activate-on-match element="__142__"/>
+      <activate-on-match element="__143__"/>
+    </state-transition-element>
+    <state-transition-element id="__143__" symbol-set="[\x20]">
+      <activate-on-match element="__143__"/>
+      <activate-on-match element="__144__"/>
+    </state-transition-element>
+    <state-transition-element id="__144__" symbol-set="[^\x20]">
+      <activate-on-match element="__144__"/>
+      <activate-on-match element="__163__"/>
+    </state-transition-element>
+    <state-transition-element id="__145__" symbol-set="[^\x20]">
+      <activate-on-match element="__145__"/>
+      <activate-on-match element="__146__"/>
+    </state-transition-element>
+    <state-transition-element id="__146__" symbol-set="[\x20]">
+      <activate-on-match element="__146__"/>
+      <activate-on-match element="__147__"/>
+    </state-transition-element>
+    <state-transition-element id="__147__" symbol-set="[h]">
+      <activate-on-match element="__148__"/>
+    </state-transition-element>
+    <state-transition-element id="__148__" symbol-set="[a]">
+      <activate-on-match element="__149__"/>
+    </state-transition-element>
+    <state-transition-element id="__149__" symbol-set="[d]">
+      <activate-on-match element="__150__"/>
+    </state-transition-element>
+    <state-transition-element id="__150__" symbol-set="[/]">
+      <activate-on-match element="__151__"/>
+      <activate-on-match element="__152__"/>
+    </state-transition-element>
+    <state-transition-element id="__151__" symbol-set="[^\x20]">
+      <activate-on-match element="__151__"/>
+      <activate-on-match element="__152__"/>
+    </state-transition-element>
+    <state-transition-element id="__152__" symbol-set="[\x20]">
+      <activate-on-match element="__152__"/>
+      <activate-on-match element="__153__"/>
+    </state-transition-element>
+    <state-transition-element id="__153__" symbol-set="[^\x20]">
+      <activate-on-match element="__153__"/>
+      <activate-on-match element="__163__"/>
+    </state-transition-element>
+    <state-transition-element id="__154__" symbol-set="[^\x20]">
+      <activate-on-match element="__154__"/>
+      <activate-on-match element="__155__"/>
+    </state-transition-element>
+    <state-transition-element id="__155__" symbol-set="[\x20]">
+      <activate-on-match element="__155__"/>
+      <activate-on-match element="__156__"/>
+    </state-transition-element>
+    <state-transition-element id="__156__" symbol-set="[^\x20]">
+      <activate-on-match element="__156__"/>
+      <activate-on-match element="__157__"/>
+    </state-transition-element>
+    <state-transition-element id="__157__" symbol-set="[\x20]">
+      <activate-on-match element="__157__"/>
+      <activate-on-match element="__158__"/>
+    </state-transition-element>
+    <state-transition-element id="__158__" symbol-set="[h]">
+      <activate-on-match element="__159__"/>
+    </state-transition-element>
+    <state-transition-element id="__159__" symbol-set="[a]">
+      <activate-on-match element="__160__"/>
+    </state-transition-element>
+    <state-transition-element id="__160__" symbol-set="[d]">
+      <activate-on-match element="__161__"/>
+    </state-transition-element>
+    <state-transition-element id="__161__" symbol-set="[/]">
+      <activate-on-match element="__162__"/>
+      <activate-on-match element="__163__"/>
+    </state-transition-element>
+    <state-transition-element id="__162__" symbol-set="[^\x20]">
+      <activate-on-match element="__162__"/>
+      <activate-on-match element="__163__"/>
+    </state-transition-element>
+    <state-transition-element id="__163__" symbol-set="[\x20]">
+      <activate-on-match element="__163__"/>
+      <activate-on-match element="__164__"/>
+      <activate-on-match element="__165__"/>
+    </state-transition-element>
+    <state-transition-element id="__164__" symbol-set="[^\x20]">
+      <activate-on-match element="__164__"/>
+      <activate-on-match element="__165__"/>
+    </state-transition-element>
+    <state-transition-element id="__165__" symbol-set="[/]">
+      <activate-on-match element="__166__"/>
+    </state-transition-element>
+    <state-transition-element id="__166__" symbol-set="[V]">
+      <activate-on-match element="__167__"/>
+    </state-transition-element>
+    <state-transition-element id="__167__" symbol-set="[B]">
+      <activate-on-match element="__168__"/>
+    </state-transition-element>
+    <state-transition-element id="__168__" symbol-set="[D]">
+      <activate-on-match element="__169__"/>
+    </state-transition-element>
+    <state-transition-element id="__169__" symbol-set="[\x20]">
+      <activate-on-match element="__169__"/>
+      <activate-on-match element="__170__"/>
+    </state-transition-element>
+    <state-transition-element id="__170__" symbol-set="[^\x20]">
+      <activate-on-match element="__170__"/>
+      <activate-on-match element="__171__"/>
+    </state-transition-element>
+    <state-transition-element id="__171__" symbol-set="[\x20]">
+      <activate-on-match element="__171__"/>
+      <activate-on-match element="__172__"/>
+    </state-transition-element>
+    <state-transition-element id="__172__" symbol-set="[^\x20]">
+      <activate-on-match element="__172__"/>
+      <activate-on-match element="__173__"/>
+    </state-transition-element>
+    <state-transition-element id="__173__" symbol-set="[\x20]">
+      <activate-on-match element="__173__"/>
+      <activate-on-match element="__174__"/>
+    </state-transition-element>
+    <state-transition-element id="__174__" symbol-set="[^\x20]">
+      <activate-on-match element="__174__"/>
+      <activate-on-match element="__175__"/>
+    </state-transition-element>
+    <state-transition-element id="__175__" symbol-set="[\x20]">
+      <report-on-match reportcode="4"/>
+    </state-transition-element>
+    <state-transition-element id="test0_0" symbol-set="[\x8a\x86]" start="all-input">
+		<activate-on-match element="test0_1"/>
+	</state-transition-element>
+	<state-transition-element id="test0_1" symbol-set="[\x01]">
+		<activate-on-match element="test0_2"/>
+	</state-transition-element>
+	<state-transition-element id="test0_2" symbol-set="[\x66]">
+		<activate-on-match element="test0_3"/>
+	</state-transition-element>
+	<state-transition-element id="test0_3" symbol-set="[\x29\x31]">
+		<activate-on-match element="test0_4"/>
+	</state-transition-element>
+	<state-transition-element id="test0_4" symbol-set="[\xd0\xd8\xe8\xf0\xf8]">
+		<activate-on-match element="test0_5"/>
+	</state-transition-element>
+	<state-transition-element id="test0_5" symbol-set="[\x86\x88]">
+		<activate-on-match element="test0_6"/>
+	</state-transition-element>
+	<state-transition-element id="test0_6" symbol-set="[\x01]">
+		<activate-on-match element="test0_7"/>
+	</state-transition-element>
+	<state-transition-element id="test0_7" symbol-set="[\x41]">
+		<report-on-match/>
+	</state-transition-element>
+	<state-transition-element id="test1_0" symbol-set="[\x8a\x86]" start="all-input">
+		<activate-on-match element="test1_1"/>
+	</state-transition-element>
+	<state-transition-element id="test1_1" symbol-set="[\x01]">
+		<activate-on-match element="test1_2"/>
+	</state-transition-element>
+	<state-transition-element id="test1_2" symbol-set="[\x66]">
+		<activate-on-match element="test1_3"/>
+	</state-transition-element>
+	<state-transition-element id="test1_3" symbol-set="[\x29\x31]">
+		<activate-on-match element="test1_4"/>
+	</state-transition-element>
+	<state-transition-element id="test1_4" symbol-set="[\xd0\xd8\xe8\xf0\xf8]">
+		<activate-on-match element="test1_5"/>
+	</state-transition-element>
+	<state-transition-element id="test1_5" symbol-set="[\x86\x88]">
+		<activate-on-match element="test1_6"/>
+	</state-transition-element>
+	<state-transition-element id="test1_6" symbol-set="[\x01]">
+		<activate-on-match element="test1_7"/>
+	</state-transition-element>
+	<state-transition-element id="test1_7" symbol-set="[\x83]">
+		<activate-on-match element="test1_8"/>
+	</state-transition-element>
+	<state-transition-element id="test1_8" symbol-set="[\xc1]">
+		<activate-on-match element="test1_9"/>
+	</state-transition-element>
+	<state-transition-element id="test1_9" symbol-set="[\x01]">
+		<report-on-match/>
+	</state-transition-element>
+  </automata-network>
+</anml>
