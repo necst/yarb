@@ -1,4 +1,4 @@
-# yarb
+# YARB
 YARB: a Methodology to Characterize Regular Expression Matching on Heterogeneous Systems
 Benchmark suite is a useful tools to test REs(Regular Expression) in a standard and fair approach.
 Currently, the used test benches came from ANMLZoo ANMLZoo Automata Processing Benchmark Suite: https://github.com/jackwadden/ANMLZoo
@@ -32,6 +32,12 @@ The RE benchmark suite exploits a Makefile, the following are the most useful co
 ##### Google RE2
 - make re2_build // build the RE2 folder in the benchmark root folde
 - make re2_test  //execute tests with Google RE2 library
+
+##### GPU code
+Original code from [original repository](https://github.com/bigwater/gpunfa-artifact), its artifacts, and the ASPLOS 2022 paper.
+- make gpu_compile
+- make gpu_build
+- make gpu_test
 
 #####
 Execution example:
@@ -179,3 +185,19 @@ cd VASim
 make
 ```
 
+## Credits and Contributors <a name="credits"></a> 
+
+Contributors: Carloni Filippo, Conficconi Davide, Moschetto Ilaria, and Santambrogio Marco Domenico
+
+If you find this repository useful, please use the following citation(s):
+
+```
+@article{yarb2023iscas,
+title={YARB: A Methodology to Characterize Regular Expression Matching on Heterogeneous Systems},
+author={Carloni, Filippo and Conficconi, Davide and Moschetto, Ilaria and Santambrogio, Marco D.},
+booktitle={2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
+pages={Accepted -- To Appear},
+year={2023}
+}
+
+```
