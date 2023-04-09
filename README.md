@@ -93,6 +93,7 @@ mkdir build
 cd build
 cmake ..
 make
+sudo make install
 ```
 
 **NOTE**: if you have problem with g++ compile, and Hyperscan doesn't seem to find the correct version, remove the check from the CMakeLists.txt
