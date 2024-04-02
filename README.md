@@ -193,12 +193,13 @@ Contributors: Carloni Filippo, Conficconi Davide, Moschetto Ilaria, and Santambr
 If you find this repository useful, please use the following citation(s):
 
 ```
-@article{yarb2023iscas,
-title={YARB: A Methodology to Characterize Regular Expression Matching on Heterogeneous Systems},
-author={Carloni, Filippo and Conficconi, Davide and Moschetto, Ilaria and Santambrogio, Marco D.},
-booktitle={2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
-pages={Accepted -- To Appear},
-year={2023}
+@inproceedings{yarb2023iscas,
+  title={Yarb: a methodology to characterize regular expression matching on heterogeneous systems},
+  author={Carloni, Filippo and Conficconi, Davide and Moschetto, Ilaria and Santambrogio, Marco D},
+  booktitle={2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE}
 }
 
 ```
